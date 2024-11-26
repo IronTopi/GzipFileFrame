@@ -34,4 +34,4 @@ def add_text_to_zipfile(file_path, text, buffer_size=1024 * 1024):  # 1MB buffer
 if __name__ == "__main__":
     my_settings = Settings()
     file_path = my_settings.zip_file_path
-    add_text_to_zipfile(file_path, "tobi ist toll")
+    add_text_to_zipfile(file_path, my_settings.header)

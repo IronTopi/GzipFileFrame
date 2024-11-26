@@ -28,11 +28,7 @@ tmp/
     source activate_venv.sh
     ```
 
-3. Install the required dependencies:
-
-    ```sh
-    pip install -r requirements.txt
-    ```
+    This will also install the requirements (`pip install ...`)
 
 ## Usage
 
@@ -64,11 +60,11 @@ To add text to an existing gzip file, run the following command:
 python src/add_frame.py
 ```
 
-This will add the text "tobi ist toll" to the gzip file specified in the `Settings` class in
+This will add the header-text to the gzip file , bothe specified in the `Settings` class.
 
 ## Configuration
 
-The project uses the `pydantic-settings` library for configuration. You can set the configuration values in a `.env` file or directly in the `Settings` class in
+The project uses the `pydantic-settings` library for configuration. You can set the configuration values in a `.env` file or directly in the `Settings` class.
 
 ## Requirements
 

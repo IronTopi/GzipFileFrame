@@ -15,7 +15,7 @@ def generate_random_data(size):
 
 
 def generate_static_data(size):
-    static_string = "a" * 1024  # 1 KB of 'a'
+    static_string = "a" * 1024 + "\n"  # 1 KB of 'a'
     chunk_size = 1024  # 1 KB
 
     loop = 0
